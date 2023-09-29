@@ -95,65 +95,7 @@ body{
     background-color:var(--primary-color);
     color: var(--primary-color);
 }
-/* label{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-input{
-    position: absolute;
-    opacity: 0;
-}
-.sun{
-    position: absolute;
-    font-size: 3em;
-    color: #666;
-    filter: drop-shadow(0 0 2px rgba(0,0,0,0.5));
-    transform: scale(0);
-    transition: 1s ease;
-}
-input:checked~.sun{
-    transition: .8s;
-    transform:  scale(1) rotate(360deg);
-}
-.moon{
-    font-size: 3em;
-    color: #666;
-    filter: drop-shadow(0 0 2px rgba(0,0,0,0.5));
-    transition:1s ease;
-}
-input:checked~.moon{
-    transform: rotate(360deg) scale(0);
-}
-.toggle{
-    position: absolute;
-    display: block;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    box-shadow: inset 0 8px 60px rgba(0,0,0,0.1);
-    box-shadow: inset 0 8px 8px rgba(0,0,0,0.1);
-    box-shadow: inset 0 -4px 4px rgba(0,0,0,0.1);
-    z-index: -1;
-}
-input:checked~.toggle {
-    background: #f8f8f8;
-}
-.animateBg{
-    position: absolute;
-    width: 3734px;
-    height: 10015px;
-    background: var(--secondary-color) ;
-    z-index: -2;
-    clip-path: circle(0% at 50% 50%);
-    transition: 1.5 ease-out;
-}
-input:checked~.animateBg {
-    clip-path: circle(150% at 50% 50%);
-} */
+
 
 /* Container */
 ul,ol{
