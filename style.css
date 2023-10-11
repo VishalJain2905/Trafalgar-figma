@@ -505,6 +505,7 @@ padding: 20px;
 .footer{
     padding: 80px 0;
     background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding-right: 200px;
 }
 .footer__brand{
     display: flex;
@@ -570,7 +571,6 @@ text-align: left;
 color: #FFFFFF;
 }
  .company ul li{
-    font-family: Muli;
     font-size: 18px;
     font-weight: 300;
     line-height: 38px;
@@ -630,7 +630,7 @@ color: #FFFFFF;
          flex-wrap: wrap;
      }
      .footer__left{
-        width: 330px;
+        width: 400px;
      }
      .footer__right{
         display: flex;
@@ -730,6 +730,12 @@ color: #FFFFFF;
 {
     margin-bottom: 20px;
 }
+.header__nav ul li a{
+    color: #7D7987;
+}
+.nav h4 {
+    color: #7D7987;
+}
 }
 @media (max-width:570px){
 
@@ -789,5 +795,7 @@ color: #FFFFFF;
         left: 0;
         top: 70px;
         text-align: left;
+        align-items: baseline;
+    padding-left: 72px;
     }
 }
