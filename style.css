@@ -530,7 +530,7 @@ padding: 20px;
 .footer__container{
     display: flex;
     flex-direction: row;
-    max-width: 1180px;
+    max-width: 1080px;
 }
 .footer__left{
     width: 400px;
@@ -809,6 +809,6 @@ color: #FFFFFF;
         top: 70px;
         text-align: left;
         align-items: baseline;
-    padding-left: 72px;
+    padding-left: 78px;
     }
 }
