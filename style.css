@@ -18,7 +18,7 @@ body{
 [data-theme ="dark"]{
     --primary-color :#fff;
     --secondary-color : #dfdfe0;
-    --bg-color: #534a57; 
+    --bg-color: #6e298c; 
     --font-color:#DFD3E3; 
     --filter: invert(100%);
 }
